@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "name": "Reminder Extension",
+    "description": "This Chrome extension is used to set Reminders.",
+    "permissions": [
+        "alarms",
+        "tts",
+        "notifications",
+        "storage"
+      ],
+    "action": {
+        "default_popup": "js/index.html",
+        "default_title": "React Chrome Extension"
+    },
+    "background": {
+        "service_worker": "service-worker.js"
+      }
+}
